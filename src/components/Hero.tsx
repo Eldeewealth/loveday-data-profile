@@ -59,8 +59,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary/30 hover:border-accent hover:text-accent transition-all duration-300 hover:shadow-elegant"
-            >
+              className="border-primary/30 hover:border-accent hover:text-black transition-all duration-300 hover:shadow-elegant">
               <Download className="w-5 h-5 mr-2" />
               Download CV
             </Button>
