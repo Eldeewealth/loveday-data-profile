@@ -73,7 +73,9 @@ const Hero = () => {
             </a>
             
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/amlovedayokoro/" 
+              target="_blank" 
+              rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-gradient-to-r hover:from-primary/20 hover:to-accent/20 transition-all duration-300 hover:shadow-elegant group"
             >
               <Linkedin className="w-6 h-6 text-muted-foreground group-hover:text-primary transition-colors" />
