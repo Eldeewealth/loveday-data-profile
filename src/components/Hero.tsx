@@ -109,9 +109,6 @@ const Hero = () => {
             <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-accent to-success rounded-full flex items-center justify-center text-2xl animate-bounce delay-1000">
               📊
             </div>
-            <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center text-lg animate-bounce delay-700">
-              🤖
-            </div>
           </div>
         </div>
       </div>
