@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 const Index = () => {
   return (
@@ -31,6 +32,9 @@ const Index = () => {
           <Contact />
         </div>
       </main>
+
+      {/* WhatsApp Widget */}
+      <WhatsAppWidget />
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-border/50 bg-card/20">
