@@ -104,14 +104,19 @@ const Contact = () => {
               <div className="mt-8 pt-6 border-t border-border/50">
                 <h4 className="font-semibold mb-4">Quick Actions</h4>
                 <div className="flex flex-wrap gap-3">
+                  <a
+                  href="https://calendly.com/lovedayokoro93/30min"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <Button 
                     variant="outline" 
                     size="sm"
-                    className="border-primary/30 hover:border-accent hover:text-accent transition-all duration-300"
+                    className="border-primary/30 hover:border-accent hover:text-black transition-all duration-300"
                   >
                     <Calendar className="w-4 h-4 mr-2" />
                     Schedule Call
                   </Button>
+                  </a>
                   <Button 
                     variant="outline" 
                     size="sm"

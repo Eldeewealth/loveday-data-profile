@@ -43,6 +43,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4">
+           <a href="#contact">
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-glow transition-all duration-300 hover:scale-105"
@@ -50,7 +51,7 @@ const Hero = () => {
               <Mail className="w-5 h-5 mr-2" />
               Get In Touch
             </Button>
-            
+            </a>
             <a 
             href="https://drive.google.com/file/d/1qH_2JjJQRtf-fq3HIwnYRbA0gJQ0F9TR/view?usp=sharing" 
             target="_blank" 

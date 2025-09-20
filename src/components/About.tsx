@@ -53,7 +53,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold">Career Objective</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                Aspiring Data Scientist currently pursuing an MSc in Data Analytics with practical 
+                A Data Scientist having MSc in Data Analytics and Technology with practical 
                 experience in cloud-based data engineering, web scraping, and data visualization. 
                 Skilled in using AWS services and Python for data processing, with a strong interest 
                 in building scalable pipelines and applying machine learning for business insights.
