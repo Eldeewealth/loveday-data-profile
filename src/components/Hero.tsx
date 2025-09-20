@@ -29,7 +29,7 @@ const Hero = () => {
             
             <h2 className="text-2xl md:text-3xl text-muted-foreground font-light">
               Data Scientist & 
-              <span className="bg-gradient-to-r from-accent to-success bg-clip-text text-transparent font-medium">
+              <span className="text-accent font-medium">
                 {" "}Product Manager
               </span>
             </h2>
