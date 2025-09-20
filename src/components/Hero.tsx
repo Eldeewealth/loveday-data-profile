@@ -51,6 +51,11 @@ const Hero = () => {
               Get In Touch
             </Button>
             
+            <a 
+            href="https://drive.google.com/file/d/1qH_2JjJQRtf-fq3HIwnYRbA0gJQ0F9TR/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >          
             <Button 
               variant="outline" 
               size="lg"
@@ -59,6 +64,7 @@ const Hero = () => {
               <Download className="w-5 h-5 mr-2" />
               Download CV
             </Button>
+            </a>
           </div>
 
           {/* Social Links */}
@@ -113,12 +119,12 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-gradient-to-b from-primary to-accent rounded-full mt-2 animate-pulse" />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
