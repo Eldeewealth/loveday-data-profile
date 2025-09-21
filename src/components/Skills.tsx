@@ -130,7 +130,7 @@ const Skills = () => {
         {/* Certifications */}
         <div className="animate-fade-in-up delay-500">
           <h3 className="text-3xl font-bold text-center mb-8">
-            <span className="bg-gradient-to-r from-accent to-success bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Certifications
             </span>
           </h3>
