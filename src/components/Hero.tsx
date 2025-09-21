@@ -70,7 +70,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex gap-6 pt-4">
             <a 
-              href="https://github.com/Eldeewealth/Query_Squad_Project" 
+              href="https://github.com/Eldeewealth?tab=repositories" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-gradient-to-r hover:from-primary/20 hover:to-accent/20 transition-all duration-300 hover:shadow-elegant group"
