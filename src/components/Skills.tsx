@@ -29,10 +29,12 @@ const Skills = () => {
       icon: Cloud,
       color: "from-accent to-success",
       skills: [
-        { name: "AWS Services", level: 85, tools: ["S3", "Glue", "IAM"] },
+        { name: "AWS Services", level: 85, tools: ["S3", "Glue", "Athena", "IAM"] },
         { name: "Data Engineering", level: 80, tools: ["ETL", "Pipelines"] },
-        { name: "Web Scraping", level: 75, tools: ["rvest", "httr"] }
-      ]
+        { name: "Big Data Tools", level: 70, tools: ["PySpark", "Hadoop"] },
+        { name: "Containerisation", level: 72, tools: ["Docker"] },
+        { name: "MLOps", level: 68, tools: ["MLflow", "CI/CD"] }
+   ]
     },
     {
       title: "Data Visualization",
@@ -41,18 +43,20 @@ const Skills = () => {
       skills: [
         { name: "Python Viz", level: 88, tools: ["Matplotlib", "Seaborn"] },
         { name: "R Visualization", level: 85, tools: ["ggplot2", "ggcorrplot"] },
-        { name: "Business Intelligence", level: 80, tools: ["Excel", "Dashboards"] },
-        { name: "Front-End Dashboards", level: 78, tools: ["React", "Vite", "Streamlit", "Dash"] }
+        { name: "Business Intelligence", level: 80, tools: ["Power BI", "Tableau", "Excel", "Dashboards"] },
+        { name: "Front-End Dashboards", level: 78, tools: ["React", "Vite", "Streamlit", "Dash", "Tailwind"] }
       ]
     },
     {
-      title: "Development Tools",
+      title: "Development Tools & Standards",
       icon: GitBranch,
       color: "from-primary-glow to-accent",
       skills: [
         { name: "Version Control", level: 85, tools: ["Git", "GitHub"] },
         { name: "Data Formats", level: 90, tools: ["CSV", "JSON", "XML"] },
-        { name: "Machine Learning", level: 75, tools: ["NLP", "Classification"] }
+        { name: "Machine Learning", level: 75, tools: ["NLP", "Classification"] },
+        { name: "Web Scraping", level: 75, tools: ["BeautifulSoup", "Scrapy", "Selenium", "rvest"] },
+        { name: "Compliance", level: 65, tools: ["GDPR", "Data Ethics"] }
       ]
     }
   ];
