@@ -165,7 +165,7 @@ const Experience = () => {
           <Card className="p-6 text-center bg-gradient-card border-border/50 hover:shadow-elegant transition-all duration-300">
             <div className="text-3xl mb-2">🎯</div>
             <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              3+ Years
+              4+ Years
             </div>
             <div className="text-muted-foreground">Professional Experience</div>
           </Card>

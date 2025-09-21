@@ -19,7 +19,7 @@ const Skills = () => {
       icon: Code2,
       color: "from-primary to-primary-glow",
       skills: [
-        { name: "Python", level: 90, tools: ["pandas", "NumPy", "scikit-learn"] },
+        { name: "Python", level: 90, tools: ["pandas", "NumPy", "scikit-learn", "PySpark"] },
         { name: "R", level: 80, tools: ["dplyr", "ggplot2", "stringr"] },
         { name: "SQL", level: 85, tools: ["MySQL", "PostgreSQL"] }
       ]
@@ -41,7 +41,8 @@ const Skills = () => {
       skills: [
         { name: "Python Viz", level: 88, tools: ["Matplotlib", "Seaborn"] },
         { name: "R Visualization", level: 85, tools: ["ggplot2", "ggcorrplot"] },
-        { name: "Business Intelligence", level: 80, tools: ["Excel", "Dashboards"] }
+        { name: "Business Intelligence", level: 80, tools: ["Excel", "Dashboards"] },
+        { name: "Front-End Dashboards", level: 78, tools: ["React", "Vite", "Streamlit", "Dash"] }
       ]
     },
     {
