@@ -114,7 +114,7 @@ const Navigation = () => {
       </nav>
 
       {/* Brand/Logo - Top Left */}
-      <div className="fixed top-6 left-6 z-40">
+      <div className="fixed top-6 left-6 z-40 hidden md:block">
         <button
           onClick={() => scrollToSection("#home")}
           className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:scale-105 transition-transform duration-300"

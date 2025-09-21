@@ -34,7 +34,7 @@ const Skills = () => {
         { name: "Big Data Tools", level: 70, tools: ["PySpark", "Hadoop"] },
         { name: "Containerisation", level: 72, tools: ["Docker"] },
         { name: "MLOps", level: 68, tools: ["MLflow", "CI/CD"] }
-   ]
+      ]
     },
     {
       title: "Data Visualization",
@@ -91,7 +91,11 @@ const Skills = () => {
           {skillCategories.map((category, index) => {
             const IconComponent = category.icon;
             return (
-              <Card key={category.title} className="p-8 bg-gradient-card border-border/50 hover:shadow-elegant transition-all duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
+          <Card
+            key={category.title}
+            className="p-8 bg-gradient-card border-border/50 hover:shadow-elegant transition-all duration-300 hover:scale-105 animate-fade-in-scale"
+            style={{ animationDelay: `${index * 100}ms` }}
+          >
                 <div className="mb-6">
                   <div className="flex items-center gap-3 mb-2">
                     <div className={`p-2 rounded-lg bg-gradient-to-r ${category.color}`}>

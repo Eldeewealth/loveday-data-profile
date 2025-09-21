@@ -4,9 +4,9 @@ import { MapPin, GraduationCap, Target } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { label: "Years Experience", value: "3+", icon: "📈" },
+    { label: "Years Experience", value: "4+", icon: "📈" },
     { label: "App Downloads", value: "100K+", icon: "📱" },
-    { label: "Certifications", value: "8+", icon: "🏆" },
+    { label: "Certifications", value: "10+", icon: "🏆" },
     { label: "Successful Projects", value: "15+", icon: "✨" }
   ];
 
