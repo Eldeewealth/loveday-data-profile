@@ -93,7 +93,7 @@ const Skills = () => {
             return (
           <Card
             key={category.title}
-            className="p-8 bg-gradient-card border-border/50 hover:shadow-elegant transition-all duration-300 hover:scale-105 animate-fade-in-scale"
+            className="p-8 bg-gradient-card border-border/50 hover:shadow-elegant transition-all duration-300 hover:scale-105"
             style={{ animationDelay: `${index * 100}ms` }}
           >
                 <div className="mb-6">
