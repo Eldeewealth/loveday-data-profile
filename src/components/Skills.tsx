@@ -67,7 +67,8 @@ const Skills = () => {
     { name: "Advanced Google Analytics", provider: "Google", year: "2023", color: "success" },
     { name: "HubSpot Content Marketing", provider: "HubSpot", year: "2023", color: "primary-glow" },
     { name: "Digital Marketing", provider: "Digify Africa", year: "2022", color: "accent" },
-    { name: "Web Design", provider: "Wootlab & MTN", year: "2023", color: "success" }
+    { name: "Web Design", provider: "Wootlab & MTN", year: "2023", color: "success" },
+    { name: "Google IT Support Certificate", provider: "Coursera", year: "2021", color: "primary" },
   ];
 
   return (

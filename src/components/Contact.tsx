@@ -40,7 +40,7 @@ const Contact = () => {
       icon: Github,
       label: "GitHub",
       value: "View Projects",
-      href: "https://github.com/Eldeewealth/Query_Squad_Project",
+      href: "https://https://github.com/Eldeewealth?tab=repositories",
       color: "from-primary-glow to-accent"
     }
   ];
