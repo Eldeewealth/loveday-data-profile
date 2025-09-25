@@ -1,18 +1,14 @@
-# Welcome to your Lovable project
+# Welcome to Loveday Profile website
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/d921a65a-68a3-407b-9183-faef2118dd3c
+**URL**: https://loveday-data-profile.vercel.app/#contact
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d921a65a-68a3-407b-9183-faef2118dd3c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+Changes made will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
