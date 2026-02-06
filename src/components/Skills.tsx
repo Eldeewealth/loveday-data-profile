@@ -43,7 +43,7 @@ const Skills = () => {
       skills: [
         { name: "Python Viz", level: 88, tools: ["Matplotlib", "Seaborn"] },
         { name: "R Visualization", level: 85, tools: ["ggplot2", "ggcorrplot"] },
-        { name: "Business Intelligence", level: 80, tools: ["Power BI", "Tableau", "Excel", "Dashboards"] },
+        { name: "Business Intelligence", level: 80, tools: ["Power BI", "Excel", "Dashboards"] },
         { name: "Front-End Dashboards", level: 78, tools: ["React", "Vite", "Streamlit", "Dash", "Tailwind"] }
       ]
     },

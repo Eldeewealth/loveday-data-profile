@@ -19,11 +19,11 @@ const Portfolio = () => {
           demo: "#"
         },
         {
-          title: "Sales Forecasting Dashboard",
-          description: "Developed an interactive dashboard for sales forecasting using time series analysis and visualization.",
-          tags: ["R", "Shiny", "Time Series", "Plotly"],
-          date: "2024",
-          github: "#",
+          title: "Query Squad Project",
+          description: "A comprehensive data analytics project that scrapes and analyzes used car data from TheAA and Cinch. Features data cleaning, transformation, and insightful visualizations including correlation heatmaps, scatter plots, and comparative analysis.",
+          tags: ["R", "Web Scraping", "Data Analysis", "ggplot2", "dplyr"],
+          date: "2025",
+          github: "https://github.com/Eldeewealth/Query_Squad_Project",
           demo: "#"
         },
         {
@@ -45,7 +45,7 @@ const Portfolio = () => {
           title: "Marketing Analytics Dashboard",
           description: "Comprehensive dashboard tracking campaign performance across multiple channels with real-time insights.",
           tags: ["Google Analytics", "Power BI", "SQL", "Marketing Mix"],
-          date: "2024",
+          date: "2023",
           github: "#",
           demo: "#"
         },
@@ -53,15 +53,15 @@ const Portfolio = () => {
           title: "Email Marketing Automation",
           description: "Automated email marketing campaigns with personalization and A/B testing capabilities.",
           tags: ["Mailchimp", "Python", "Automation", "A/B Testing"],
-          date: "2024",
+          date: "2023",
           github: "#",
           demo: "#"
         },
         {
           title: "Social Media Campaign Analysis",
           description: "Analyzed social media campaign performance and ROI across Facebook, Instagram, and LinkedIn.",
-          tags: ["Social Media", "ROI Analysis", "Tableau", "Campaign Optimization"],
-          date: "2023",
+          tags: ["Social Media", "ROI Analysis", "Campaign Optimization"],
+          date: "2022",
           github: "#",
           demo: "#"
         }
@@ -74,19 +74,19 @@ const Portfolio = () => {
       projects: [
         {
           title: "E-commerce Analytics Platform",
-          description: "Built a comprehensive e-commerce analytics platform with real-time sales tracking and inventory management.",
-          tags: ["React", "Node.js", "MongoDB", "Chart.js"],
-          date: "2024",
-          github: "#",
-          demo: "#"
+          description: "A real-time E-commerce Analytics Platform for tracking sales performance and digital product metrics. Features user-friendly dashboard with performance analytics, secure authentication, and responsive UI for seamless data analysis across devices.",
+          tags: ["React", "TypeScript", "Vite", "Chart.js", "Vercel"],
+          date: "2025",
+          github: "https://github.com/Eldeewealth/eldeetech_website",
+          demo: "https://eldeetech.com.ng"
         },
         {
           title: "Personal Portfolio Website",
           description: "Responsive portfolio website showcasing projects and skills with modern design principles.",
           tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-          date: "2024",
-          github: "#",
-          demo: "#"
+          date: "2025",
+          github: "https://github.com/Eldeewealth/loveday-data-profile",
+          demo: "https://loveday-data-profile.vercel.app/"
         }
       ]
     }
