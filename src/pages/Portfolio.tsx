@@ -156,11 +156,22 @@ const Portfolio = () => {
 
                       {/* Action Buttons */}
                       <div className="flex gap-2">
-                        <Button variant="outline" size="sm" className="flex-1">
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="flex-1"
+                          onClick={() => project.github !== "#" && window.open(project.github, "_blank")}
+                          disabled={project.github === "#"}
+                        >
                           <Github className="w-4 h-4 mr-2" />
                           Code
                         </Button>
-                        <Button size="sm" className="flex-1">
+                        <Button 
+                          size="sm" 
+                          className="flex-1"
+                          onClick={() => project.demo !== "#" && window.open(project.demo, "_blank")}
+                          disabled={project.demo === "#"}
+                        >
                           <ExternalLink className="w-4 h-4 mr-2" />
                           Demo
                         </Button>
