@@ -1,57 +1,74 @@
-# Welcome to Loveday Profile website
+# 🌐 Loveday Okoro — Data Analytics Portfolio
 
-## Project info
+🔗 **Live Website:** https://loveday-data-profile.vercel.app  
 
-**URL**: https://loveday-data-profile.vercel.app/#contact
+---
 
-## How can I edit this code?
+## 🚀 About This Portfolio
+This portfolio showcases my work as a Data Analyst, featuring real-world projects, dashboards, and analytical case studies.
 
-There are several ways of editing your application.
+It reflects my ability to:
+- Transform complex datasets into actionable business insights  
+- Design and develop interactive dashboards using Excel and Power BI  
+- Apply machine learning techniques to real-world problems  
+- Communicate findings through clear, data-driven storytelling  
 
-Changes made will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📸 Portfolio Preview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🖥️ Homepage
+![Portfolio Homepage](./image/homepage.png)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📊 Projects Section
+![Projects Section](./image/projects.png)
 
-Follow these steps:
+### 📈 Dashboard Example
+![Dashboard Example](./image/dashboard.png)
+
+---
+
+## 📂 Featured Work
+
+Explore the portfolio to see:
+
+- 📈 **Machine Learning:** Fairness-aware algorithmic trading models  
+- 📊 **Data Analysis:** Gambling behaviour and mental health insights  
+- 🚗 **Web Scraping & Sentiment Analysis:** Customer review analytics  
+- 📉 **Data Visualisation:** Dashboards and business intelligence insights  
+
+---
+
+## 🛠️ Core Skills Demonstrated
+
+- **Data Analysis:** SQL, Excel, Exploratory Data Analysis (EDA)  
+- **Visualisation:** Power BI dashboards, Matplotlib, Seaborn  
+- **Programming:** Python, R  
+- **Machine Learning:** Predictive modelling, model evaluation  
+- **Analytics:** Statistical analysis, KPI development  
+- **Communication:** Data storytelling and insight presentation  
+
+---
+
+## ⚙️ Technologies Used
+
+- TypeScript  
+- React  
+- Vite  
+- Tailwind CSS  
+- shadcn-ui  
+- Vercel (deployment)  
+
+---
+
+## 🌐 View Portfolio
+
+👉 https://loveday-data-profile.vercel.app  
+
+---
+
+## 💻 Local Development (Optional)
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
