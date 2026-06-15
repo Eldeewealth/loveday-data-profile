@@ -67,11 +67,10 @@ const Navigation = () => {
         <div className="bg-card/80 backdrop-blur-lg border border-border/50 rounded-full px-6 py-3 shadow-elegant">
           <div className="flex items-center gap-1">
             {navItems.map((item) => {
-              const IconComponent = item.icon;
-              const isActive = item.isRoute 
-                ? location.pathname === item.href 
-                : activeSection === item.id;
-              
+              const IconComponent = item.icon;  
+              const isActive =
+                (item.isRoute && location.pathname === item.href) ||
+                (!item.isRoute && location.pathname === "/" && activeSection === item.id);
               return (
                 <button
                   key={item.id}
@@ -106,10 +105,10 @@ const Navigation = () => {
         {isOpen && (
           <div className="absolute top-14 right-0 bg-card/95 backdrop-blur-lg border border-border/50 rounded-lg shadow-elegant p-2 min-w-[200px]">
             {navItems.map((item) => {
-              const IconComponent = item.icon;
-              const isActive = item.isRoute 
-                ? location.pathname === item.href 
-                : activeSection === item.id;
+              const IconComponent = item.icon;          
+              const isActive =
+                (item.isRoute && location.pathname === item.href) ||
+                (!item.isRoute && location.pathname === "/" && activeSection === item.id);
               
               return (
                 <button

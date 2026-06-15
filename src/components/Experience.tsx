@@ -5,7 +5,7 @@ import { Building, Calendar, TrendingUp, Users, Target } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Product Manager",
+      title: "Product Manager (Data & Analytics Focus)",
       company: "Ecobank Nigeria",
       project: "mySME App",
       period: "Dec 2023 – Feb 2025",
@@ -13,7 +13,7 @@ const Experience = () => {
       achievements: [
         "Oversaw the launch of a digital SME platform with 100,000+ downloads across Nigeria",
         "Prepared and analyzed product performance data to monitor registration funnels",
-        "Conducted training workshops that boosted adoption rates by 30%",
+        "Analysed user adoption metrics and supported training initiatives, contributing to a 30% increase in platform adoption",
         "Delivered structured datasets and dashboards for senior management decision support"
       ],
       skills: ["Product Management", "Data Analysis", "Cross-functional Leadership", "Excel", "Scrum"],
@@ -29,7 +29,7 @@ const Experience = () => {
         "Designed and executed digital strategies, improving client lead generation by 25%",
         "Analyzed campaign performance and optimized targeting, increasing conversions by 15%",
         "Delivered data-driven reports to support SME and startup decisions",
-        "Created tailored content achieving 20% uplift in engagement"
+        "Analysed engagement data and optimised content strategy, resulting in a 20% increase in user engagement"
       ],
       skills: ["Digital Strategy", "Campaign Optimization", "Data Analysis", "Lead Generation"],
       color: "from-accent to-success"
@@ -78,7 +78,7 @@ const Experience = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Building impactful solutions across fintech, digital marketing, and data analytics
+            Leveraging data analysis, machine learning, and business intelligence to deliver measurable impact across fintech and digital platforms
           </p>
         </div>
 
