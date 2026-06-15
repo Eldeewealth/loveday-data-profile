@@ -28,16 +28,16 @@ const Hero = () => {
             </h1>
             
             <h2 className="text-2xl md:text-3xl text-muted-foreground font-light">
-              Data Analyst with
+              Data Analyst 
               <span className="text-accent font-medium">
-                {" "}strong Machine Learning Expertise
+                {" "}| Machine Learning & Business Insights
               </span>
             </h2>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              MSc Data Analytics graduate with expertise in cloud-based data engineering, 
-              machine learning, and product management. Transforming complex data into 
-              actionable business insights.
+              MSc Data Analytics graduate with hands-on experience in data analysis, machine learning 
+              and dashboard development. Proven ability to extract insights from complex datasets and 
+              translate them into actionable strategies that drive business outcomes.
             </p>
           </div>
 

@@ -62,14 +62,18 @@ const Skills = () => {
   ];
 
   const certifications = [
-    { name: "PostgreSQL Developer", provider: "Simplilearn", year: "2025", color: "primary" },
-    { name: "AWS Cloud Practitioner", provider: "AWS", year: "2025", color: "accent" },
-    { name: "Advanced Google Analytics", provider: "Google", year: "2023", color: "success" },
-    { name: "HubSpot Content Marketing", provider: "HubSpot", year: "2023", color: "primary-glow" },
-    { name: "Digital Marketing", provider: "Digify Africa", year: "2022", color: "accent" },
-    { name: "Web Design", provider: "Wootlab & MTN", year: "2023", color: "success" },
-    { name: "Google IT Support Certificate", provider: "Coursera", year: "2021", color: "primary" },
-  ];
+  { name: "Excel Fundamentals (Skill Track)", provider: "DataCamp", year: "2026", color: "primary" },
+
+  { name: "PostgreSQL Developer", provider: "Simplilearn", year: "2025", color: "accent" },
+
+  { name: "AWS Cloud Practitioner", provider: "AWS", year: "2025", color: "success" },
+
+  { name: "Advanced Google Analytics", provider: "Google", year: "2023", color: "primary-glow" },
+
+  // Optional (lower priority)
+  { name: "Content Marketing", provider: "HubSpot", year: "2023", color: "success" },
+  { name: "Digital Marketing", provider: "Digify Africa", year: "2022", color: "accent" }
+];
 
   return (
     <section id="skills" className="py-20 px-6 bg-card/20">
