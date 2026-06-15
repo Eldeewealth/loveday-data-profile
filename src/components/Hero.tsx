@@ -28,9 +28,9 @@ const Hero = () => {
             </h1>
             
             <h2 className="text-2xl md:text-3xl text-muted-foreground font-light">
-              Data Scientist & 
+              Data Analyst with
               <span className="text-accent font-medium">
-                {" "}Product Manager
+                {" "}strong Machine Learning Expertise
               </span>
             </h2>
 
