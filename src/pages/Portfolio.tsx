@@ -16,10 +16,18 @@ const Portfolio = () => {
           title: "Databel Customer Churn Insights & Retention Dashboard",
           description:
             "End-to-end churn analysis using Excel and Google Sheets. Identified customer retention drivers and delivered actionable business recommendations through an interactive dashboard.",
-          tags: ["Excel", "Google Sheets", "Data Analysis", "Dashboard"],
+          tags: ["Excel", "Data Analysis", "Dashboard"],
           date: "2026",
           github: "https://github.com/Eldeewealth/customer-churn-retention-analysis-dashboard",
           demo: null
+        },
+        {
+          title: "Fairness-Aware XAI for Algorithmic Trading",
+          description:
+            "Built a machine learning pipeline for S&P 500 trading with fairness constraints, SHAP interpretability, calibration diagnostics, and backtesting for economic evaluation.",
+          tags: ["Python", "ML", "SHAP", "Fairlearn", "Finance"],
+          date: "2026",
+          github: "https://github.com/Eldeewealth/Fairness-Aware-XAI-for-Responsible-Algorithmic-Trading"
         }
       ]
     },
@@ -44,14 +52,7 @@ const Portfolio = () => {
           date: "2025",
           github: "https://github.com/Eldeewealth/Project-Car-Sentiment-Data"
         },
-        {
-          title: "Fairness-Aware XAI for Algorithmic Trading",
-          description:
-            "Built a machine learning pipeline for S&P 500 trading with fairness constraints, SHAP interpretability, calibration diagnostics, and backtesting for economic evaluation.",
-          tags: ["Python", "ML", "SHAP", "Fairlearn", "Finance"],
-          date: "2025",
-          github: "https://github.com/Eldeewealth/Fairness-Aware-XAI-for-Responsible-Algorithmic-Trading"
-        },
+        
         {
           title: "Gambling & Mental Health Analysis (MSc)",
           description:
