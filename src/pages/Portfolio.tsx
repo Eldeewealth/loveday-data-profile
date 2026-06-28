@@ -36,7 +36,6 @@ const Portfolio = () => {
             "AI-powered referencing assistant designed to validate DOIs, detect predatory journals, and format Harvard Author–Date citations while supporting academic integrity.",
           tags: ["AI", "NLP", "Prompt Engineering", "Academic Tools"],
           date: "2026",
-          github: null,
           demo: "https://www.linkedin.com/posts/amlovedayokoro_harvardreferencing-academicintegrity-aiforstudents-activity-7395129115915300865-pPpa",
           requestAccess: true,
           featured: true
