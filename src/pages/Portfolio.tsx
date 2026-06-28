@@ -27,7 +27,19 @@ const Portfolio = () => {
             "Built a machine learning pipeline for S&P 500 trading with fairness constraints, SHAP interpretability, calibration diagnostics, and backtesting for economic evaluation.",
           tags: ["Python", "ML", "SHAP", "Fairlearn", "Finance"],
           date: "2026",
-          github: "https://github.com/Eldeewealth/Fairness-Aware-XAI-for-Responsible-Algorithmic-Trading"
+          github: "https://github.com/Eldeewealth/Fairness-Aware-XAI-for-Responsible-Algorithmic-Trading",
+          demo: "https://fairness-aware-xai-for-responsible.onrender.com/"
+        },
+        {
+          title: "Harvard Reference AI (Academic Tool)",
+          description:
+            "AI-powered referencing assistant designed to validate DOIs, detect predatory journals, and format Harvard Author–Date citations while supporting academic integrity.",
+          tags: ["AI", "NLP", "Prompt Engineering", "Academic Tools"],
+          date: "2026",
+          github: null,
+          demo: "https://www.linkedin.com/posts/amlovedayokoro_harvardreferencing-academicintegrity-aiforstudents-activity-7395129115915300865-pPpa",
+          requestAccess: true,
+          featured: true
         }
       ]
     },
@@ -36,6 +48,15 @@ const Portfolio = () => {
       description: "Projects demonstrating analytics, ML, NLP, and applied research",
       icon: <Folder className="w-6 h-6" />,
       projects: [
+        {
+          title: "Gambling & Mental Health Analysis (MSc)",
+          description:
+            "Explored the relationship between gambling behaviour and mental health outcomes in the UK using statistical analysis and data visualisation.",
+          tags: ["Statistics", "Research", "Data Analysis"],
+          date: "2025",
+          github: "https://github.com/Eldeewealth/Gambling_MentalHealth_MSc",
+          demo: "https://gambling-mental-health-analytics.streamlit.app/"
+        },
         {
           title: "Used Car Data Analysis (Query Squad)",
           description:
@@ -51,15 +72,6 @@ const Portfolio = () => {
           tags: ["Python", "NLP", "Scrapy", "Data Analysis"],
           date: "2025",
           github: "https://github.com/Eldeewealth/Project-Car-Sentiment-Data"
-        },
-        
-        {
-          title: "Gambling & Mental Health Analysis (MSc)",
-          description:
-            "Explored the relationship between gambling behaviour and mental health outcomes in the UK using statistical analysis and data visualisation.",
-          tags: ["Statistics", "Research", "Data Analysis"],
-          date: "2025",
-          github: "https://github.com/Eldeewealth/Gambling_MentalHealth_MSc"
         }
       ]
     }
