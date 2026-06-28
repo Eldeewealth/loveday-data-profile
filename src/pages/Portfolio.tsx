@@ -154,7 +154,9 @@ const Portfolio = () => {
 
                       {/* Buttons */}
                       <div className="flex gap-2">
-
+                      
+                    {/* ✅ GitHub button (only if exists) */}
+                      {project.github && (
                         <Button
                           variant="outline"
                           size="sm"
@@ -164,19 +166,30 @@ const Portfolio = () => {
                           <Github className="w-4 h-4 mr-2" />
                           Code
                         </Button>
+                      )}
 
-                        {project.demo && (
-                          <Button
-                            size="sm"
-                            className="flex-1"
-                            onClick={() => window.open(project.demo, "_blank")}
-                          >
-                            <ExternalLink className="w-4 h-4 mr-2" />
-                            Demo
-                          </Button>
-                        )}
+                      {/* ✅ Demo or Request Access */}
+                      {project.requestAccess ? (
+                        <Button
+                          size="sm"
+                          className="flex-1 bg-accent hover:bg-accent/90"
+                          onClick={() => window.open(project.demo, "_blank")}
+                        >
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Request Access
+                        </Button>
+                      ) : project.demo && (
+                        <Button
+                          size="sm"
+                          className="flex-1"
+                          onClick={() => window.open(project.demo, "_blank")}
+                        >
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Live App
+                        </Button>
+                      )}
 
-                      </div>
+                    </div>
 
                     </CardContent>
 
